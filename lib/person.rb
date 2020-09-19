@@ -12,6 +12,6 @@ class Person
   end
  
   def name
-    @this_dogs_name
+    @job
   end
 end
