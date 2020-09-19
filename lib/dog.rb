@@ -1,22 +1,18 @@
 class Dog
-  def name=(dogs_name)
-    @this_dogs_name = dogs_name
+ 
+  def initialize(name, breed)
+    @name = name
+    @name = name
+  end
+ 
+  def name=(full_name)
+    first_name, last_name = full_name.split
+    @first_name = first_name
+    @last_name = last_name
   end
  
   def name
-    @this_dogs_name
-  end
-
-fido = Dog.new
-fido.name = "Fido"
-
-fido.instance_variable_set(:@this_dogs_name, "Fido")
-
-  def breed=(breed)
-    @breed = breed
+    "#{@first_name} #{@last_name}".strip
   end
  
-  def name
-    @breed
-  end
 end
