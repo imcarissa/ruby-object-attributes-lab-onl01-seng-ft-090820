@@ -10,7 +10,7 @@ class Dog
 fido = Dog.new
 fido.name = "Fido"
 
-
+fido.instance_variable_set(:@this_dogs_name, "Fido")
 
   def breed=(breed)
     @breed = breed
