@@ -7,7 +7,7 @@ class Person
     @name
   end
 
-  def job=(dogs_name)
+  def job=(job)
     @this_dogs_name = dogs_name
   end
  
