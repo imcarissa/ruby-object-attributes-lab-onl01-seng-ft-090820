@@ -8,7 +8,7 @@ class Person
   end
 
   def job=(job)
-    @job = dogs_name
+    @job = job
   end
  
   def name
